@@ -12,7 +12,6 @@ function SearchBar({ onSearch }) {
   return (
     <div className={styles.searchBar}>
       <div className={styles.appName}>
-        AEM Search IMG APP
       </div>
       <div className={styles.searchBarContainer}>
         <form className={styles.searchBarForm} onSubmit={handleSubmit}>
